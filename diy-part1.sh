@@ -22,7 +22,7 @@ git clone --depth 1 https://github.com/destan19/OpenAppFilter.git package/OpenAp
 # echo 'src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git' >> feeds.conf.default
 
 # ---------- （可选）添加 OpenClash 源，需要的话取消注释 ----------
-# echo 'src-git openclash https://github.com/vernesong/OpenClash.git' >> feeds.conf.default
+echo 'src-git openclash https://github.com/vernesong/OpenClash.git' >> feeds.conf.default
 
 # ---------- （可选）克隆单个插件到 package 目录 ----------
 # git clone https://github.com/xxx/luci-app-xxx.git package/luci-app-xxx
